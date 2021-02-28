@@ -11,11 +11,11 @@ cpdaily:
     - default:
         title: 今日是否在校？
         type: 2
-        value: 否，已离校返乡
+        value: 旗山校区
     - default:
         title: 目前你的所在地是？
         type: 1
-        value: 福建省/龙岩市/长汀县
+        value: 福建省/福州市/闽侯县
     - default:
         title: 你今天的体温是多少？
         type: 2
