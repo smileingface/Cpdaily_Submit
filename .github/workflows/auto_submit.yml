@@ -105,7 +105,7 @@ jobs:
   submit_user3:
 
     runs-on: ubuntu-latest
-    environment: hali # 此处填入环境名
+    environment: Hali # 此处填入环境名
     # 使用action运行本地api服务时打开
     # services:
     #   # Label used to access the service container
