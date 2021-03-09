@@ -144,3 +144,4 @@ jobs:
 
       run: |
         python ./index.py $config
+          
