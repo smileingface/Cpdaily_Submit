@@ -41,7 +41,7 @@ jobs:
         python -m pip install --upgrade pip
         python -m pip install -r requirements.txt
 
-    - name: Run code 
+    - name: 1Run code 
       env:
         # 模拟登录api地址
         login_api: ${{ secrets.login_api }}
@@ -58,7 +58,7 @@ jobs:
 
       run: |
         python ./index.py $config
-        
+          
   submit_user2:
 
     runs-on: ubuntu-latest
@@ -101,7 +101,7 @@ jobs:
 
       run: |
         python ./index.py $config
-          
+        
   submit_user3:
 
     runs-on: ubuntu-latest
