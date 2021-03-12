@@ -27,7 +27,7 @@ cpdaily:
     - default:
         title: 你所居住的宿舍是？
         type: 1
-        value: 19#306
+        value: "19#306"
     - default:
         title: 你今天是否被隔离？
         type: 2
