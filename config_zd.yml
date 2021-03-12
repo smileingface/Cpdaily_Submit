@@ -8,7 +8,7 @@ cpdaily:
   #表单组默认选项配置
   defaults:
     #表单项标题 
-     - default:
+    - default:
         title: 你今天的体温是多少？
         type: 2
         value: 36~37.2℃
