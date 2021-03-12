@@ -5,11 +5,13 @@ login:
 
 #今日校园相关配置
 cpdaily:
+#今日校园相关配置
+cpdaily:
   #表单组默认选项配置
   defaults:
-    #表单项标题
+    #表单项标题 
     - default:
-        title: "你今天的体温是多少？ "
+        title: "你今天的体温是多少？\xa0"
         type: 2
         value: 36~37.2℃
     - default:
@@ -27,7 +29,7 @@ cpdaily:
     - default:
         title: 你所居住的的宿舍是？
         type: 1
-        value: 19#306
+        value: 21#409
     - default:
         title: 你今日是否被隔离？
         type: 2
