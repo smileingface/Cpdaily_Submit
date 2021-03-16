@@ -21,7 +21,7 @@ cpdaily:
         type: 2
         value: 健康，无症状
     - default:
-        title: 你今日是否被隔离？
+        title: 你今日是否被隔离？\xa0
         type: 2
         value: 否
     - default:
