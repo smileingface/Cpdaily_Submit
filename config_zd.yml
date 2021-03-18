@@ -13,6 +13,10 @@ cpdaily:
         type: 2
         value: 旗山校区
     - default:
+        title: 你所在的宿舍？
+        type: 1
+        value: 19#306
+    - default:
         title: 你今天的体温是多少？
         type: 2
         value: 36~37.2℃
@@ -21,7 +25,11 @@ cpdaily:
         type: 2
         value: 健康，无症状
     - default:
-        title: 你今日是否被隔离？\xa0
+        title: 你当日的心理健康状况？
+        type: 2
+        value: 正常
+    - default:
+        title: 你今日是否被隔离？
         type: 2
         value: 否
     - default:
