@@ -11,7 +11,31 @@ cpdaily:
   defaults:
     #表单项标题 
     - default:
-        title: "你今天的体温是多少？\xa0"
+        title: 你所在的校区是
+        type: 2
+        value: 旗山校区
+    - default:
+        title: 你所居住的的宿舍是？
+        type: 1
+        value: 21#409
+    - default:
+        title: 你今日是否被隔离？
+        type: 2
+        value: 否
+    - default:
+        title: 本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处？
+        type: 2
+        value: 是
+   - default:
+        title: 今日是否在校？
+        type: 2
+        value: 旗山校区
+    - default:
+        title: 你所在的宿舍？
+        type: 1
+        value: 21#409
+    - default:
+        title: 你今天的体温是多少？
         type: 2
         value: 36~37.2℃
     - default:
@@ -23,15 +47,11 @@ cpdaily:
         type: 2
         value: 正常
     - default:
-        title: 你所在的校区是
+        title: 你目前是否被隔离？
         type: 2
-        value: 旗山校区
+        value: 否
     - default:
-        title: 你所居住的的宿舍是？
-        type: 1
-        value: 21#409
-    - default:
-        title: 你今日是否被隔离？
+        title: 如果被隔离，请选择你的隔离类型（未被隔离的选否）
         type: 2
         value: 否
     - default:
