@@ -29,7 +29,7 @@ cpdaily:
         type: 2
         value: 正常
     - default:
-        title: 你今日是否被隔离？
+        title: 你目前是否被隔离？
         type: 2
         value: 否
     - default:
