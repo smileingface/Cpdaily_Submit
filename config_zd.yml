@@ -7,7 +7,6 @@ login:
 cpdaily:
   #表单组默认选项配置
   defaults:
-    #表单项标题 
     - default:
         title: 今日是否在校？
         type: 2
@@ -40,3 +39,14 @@ cpdaily:
         title: 本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处？
         type: 2
         value: 是
+#登陆相关配置
+login:
+  #开放的模拟登陆api服务器地址 
+  api: "http://www.zimo.wiki:8080/wisedu-unified-login-api-v1.0/api/login"
+
+#今日校园相关配置
+cpdaily:
+  #表单组默认选项配置
+  defaults:
+    #表单项标题 
+    
