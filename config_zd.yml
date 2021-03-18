@@ -38,7 +38,7 @@ cpdaily:
         title: 如果被隔离，请选择你的隔离类型（未被隔离的选否）
         type: 2
         value: 否
-   - default:
+    - default:
         title: 本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处？
         type: 2
         value: 是
