@@ -13,7 +13,7 @@ cpdaily:
         type: 2
         value: 旗山校区
     - default:
-        title: 你所居在的宿舍？
+        title: 你所在的宿舍？
         type: 1
         value: 19#306   
     - default:
