@@ -7,14 +7,15 @@ login:
 cpdaily:
   #表单组默认选项配置
   defaults:
+    #表单项标题 
     - default:
         title: 今日是否在校？
         type: 2
         value: 旗山校区
     - default:
-        title: 你所在的宿舍？
+        title: 你所居在的宿舍？
         type: 1
-        value: 19#306
+        value: 19#306   
     - default:
         title: 你今天的体温是多少？
         type: 2
