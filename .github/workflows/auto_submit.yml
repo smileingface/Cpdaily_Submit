@@ -278,7 +278,7 @@ jobs:
   submit_user7:
 
     runs-on: ubuntu-latest
-    environment: ergou # 此处填入环境名
+    environment: Ergou # 此处填入环境名
     # 使用action运行本地api服务时打开
     # services:
     #   # Label used to access the service container
@@ -300,7 +300,7 @@ jobs:
       run: | 
         python -m pip install --upgrade pip
         python -m pip install -r requirements.txt
-    - name: 1Run code 
+    - name: Run code 
       env:
         # 模拟登录api地址
         login_api: ${{ secrets.login_api }}
